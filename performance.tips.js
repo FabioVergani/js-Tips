@@ -73,6 +73,12 @@ document.getElementById('id');
 
 // Use x | 0 instead of Math.floor
 let x = 5.4563432 | 0; // x = 5;
+/*
+Math.floor: 0|n
+Math.round: 0|n+.5
+Math.ceil: 0|n+(n!=~~n))
+*/
+
 
 // A list of comprehensive bitwise optimizations (using bitwise operations for common math functions instead of the native ones)
 var n = Math.PI;
@@ -84,6 +90,17 @@ Math.floor(n) === n + (n < 0 ? -1 : 0) >> 0;
 Math.round(n) === (n + 0.5) >> 0;
 Math.ceil(n) === (n + 1) >> 0;
 Math.floor(n) === n >> 0;
+
+
+
+
+
+
+
+
+
+
+
 
 
 var numerator = 99999;
